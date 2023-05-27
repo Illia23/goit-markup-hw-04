@@ -158,6 +158,7 @@ p {
         url(../images/bacground-hero.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 600px;
     max-width: 1440px;
     margin-left: auto;
@@ -244,32 +245,11 @@ p {
     width: calc((100% - 72px) / 4);
 }
 
-.first-item::before {
-    content: '';
-    display: block;
-    border-radius: 4px;
-    background-color: var(--bacground-icon);
+.icon-sec1 {
     height: 112px;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: #F4F4FD;
+    border-radius: 4px;
 }
-
-.icon-strategy::before {
-    background-image: url(../images/antenna\ 1strategy.svg);
-}
-
-.icon-oclock::before {
-    background-image: url(../images/clock\ 1clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/diagram\ 1diagram.svg);
-}
-
-.icon-astr::before {
-    background-image: url(../images/astronaut\ 1astronavt.svg);
-}
-
 
 /* section-2 */
 
