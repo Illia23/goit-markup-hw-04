@@ -98,7 +98,8 @@ p {
 }
 
 .address-list,
-.list-conect {
+.list-conect,
+.list-icon {
     list-style-type: none;
 }
 
@@ -548,10 +549,7 @@ footer {
     color: #F4F4FD;
 }
 
-.media {
-    display: flex;
-    align-items: center;
-}
+
 
 .media .text {
     font-family: 'Roboto';
@@ -563,6 +561,28 @@ footer {
 
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-top: 0px;
-    align-items: center;
+    margin-bottom: 16px;
+
+}
+
+/* icon */
+.foot {
+    display: flex;
+}
+
+.media {
+    margin-left: 120px;
+}
+
+.list-icon {
+    display: flex;
+    gap: 24px;
+
+
+
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
 }
