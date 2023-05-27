@@ -254,7 +254,7 @@ p {
     width: calc((100% - 72px) / 4);
 }
 
-.icon-sec1 {
+.cont-icon {
     display: flex;
     height: 112px;
     background: #F4F4FD;
@@ -264,11 +264,7 @@ p {
     align-items: center;
 }
 
-.icon-privil {
-    width: 64px;
-    height: 64px;
 
-}
 
 /* section-2 */
 
@@ -405,8 +401,7 @@ p {
 
 .svg-networks {
     fill: var(--fill);
-    height: 16;
-    width: 16;
+
 }
 
 /* portfolio */
