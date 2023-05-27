@@ -562,9 +562,8 @@ main .list {
 }
 
 .svg-client {
+    fill: currentColor;
 
-    width: 104px;
-    height: 56px;
 }
 
 /* Footer */
